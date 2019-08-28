@@ -1,0 +1,22 @@
+1、svn 一个服务器端对应多个客户端
+
+2、git：分布式版本管理工具，一台电脑既可以是服务器端也可以是客户端	
+	云端：github - 代码托管平台和研发协作平台
+
+
+通过git操作github上的项目
+1、在github上创建了一个新的仓库，只需要取一个名字就可以了
+   记住你的仓库地址：https协议的
+2、在任何一台电脑上：右键打开git bash here
+   git clone github仓库路径;在你的电脑上就有了仓库
+   将你的项目放入仓库中
+	git add . 全部添加到本地服务器
+	git commit -m"日志"   日志必须写，绿色的勾可以准备推到先上了
+
+推到线上：git push -v origin master
+
+线上拉下来：git pull origin master
+
+作业：1、创建一个github账号
+      2、将你做过的coffee和金夫人和艾米雪，传到你的github之上
+      3、让你的同桌试试拉下来
